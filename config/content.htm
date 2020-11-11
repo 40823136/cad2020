@@ -56,35 +56,19 @@
 <p><span>接著必須將 y:\tcc\ 放入隨身系統中的 path 命令搜尋路徑中,修改start.bat</span></p>
 <p><span><img alt="" height="294" src="/images/7771.png" width="226"/></span></p>
 <p><span>修改完關掉並重新啟動start.bat</span></p>
-<p><span>修改 SciTE 編輯器中的 cpp.properties, 讓 Tools -&gt; Go 可以呼叫 tcc.exe 類解譯編輯器中副檔名為 .c 的 ANSI C 程式</span></p>
+<p><span>修改 SciTE 編輯器中的 cpp.properties, 讓 Tools -&gt; Go 可以呼叫 tcc.exe 類解譯編輯器中副檔名為 .c 的 ANSI C 程式.</span></p>
 <p><span><img alt="" height="326" src="/images/7772.png" width="294"/></span></p>
 <p><span>完成上述可納入練習1 hello.c,利用 Tools -&gt; Go 直接進行存檔並且執行.</span></p>
-<table border="0" cellpadding="0" cellspacing="0">
-<tbody>
-<tr>
-<td class="gutter">
-<div class="line number1 index0 alt2">1</div>
-<div class="line number2 index1 alt1">2</div>
-<div class="line number3 index2 alt2">3</div>
-<div class="line number4 index3 alt1">4</div>
-<div class="line number5 index4 alt2">5</div>
-<div class="line number6 index5 alt1">6</div>
-</td>
-<td class="code">
-<div class="container">
-<div class="line number1 index0 alt2"><code class="cpp preprocessor">#include &lt;stdio.h&gt;</code></div>
-<div class="line number2 index1 alt1"><code class="cpp spaces"> </code> </div>
-<div class="line number3 index2 alt2"><code class="cpp color1 bold">int</code> <code class="cpp plain">main() {</code></div>
-<div class="line number4 index3 alt1"><code class="cpp spaces">    </code><code class="cpp functions bold">printf</code><code class="cpp plain">(</code><code class="cpp string">"Hello, world!\n"</code><code class="cpp plain">);</code></div>
-<div class="line number5 index4 alt2"><code class="cpp spaces">    </code><code class="cpp keyword bold">return</code> <code class="cpp plain">0;</code></div>
-<div class="line number6 index5 alt1"><code class="cpp plain">}</code></div>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
+<p>.</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">#include &lt;stdio.h&gt;
+ 
+int main() {
+    printf("Hello, world!\n");
+    return 0;
+}</pre>
+<p><span></span></p>
+<p><br/>完成以上,可執行下面程式</p>
 <p><img alt="" height="235" src="/images/7773.png" width="241"/></p>
-<p>完成以上,可執行下面程式</p>
 <pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">/* Runge Kutta for a set of first order differential equations */
  
 #include &lt;stdio.h&gt;
