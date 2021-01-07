@@ -50,7 +50,20 @@
 <p></p>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/LZbGfRem3C8" width="560"></iframe></p>
 <h2>產生ssh key</h2>
+<p><span>利用隨身系統輸入指令sh</span></p>
+<p>輸入指令ssh-keygen -t rsa -b 4096 -C "學號"</p>
+<p>預設之金鑰儲存在y:\home\.ssh目錄裡</p>
+<p><img alt="" height="178" src="/images/cad1.png" width="334"/></p>
+<p>使用puttygen將private key(id_rsa)導入，並轉換為putty能夠讀懂的格式(.ppk)檔案</p>
+<p>存好(.ppk)檔後</p>
+<p><img alt="" height="249" src="/images/cad2.png" width="272"/></p>
+<p><span>使用scite將public key (id_rsa.pub)打開，到工具列找到Options--&gt;Wrap就能看建完整的檔案內容</span><img alt="" height="280" src="/images/cad3.png" width="333"/></p>
+<p><span>將完整public key內容複製，進入github右上角下拉選單點擊settings</span></p>
+<p><span>點擊SSH and GPG keys</span></p>
+<p><span><img alt="" height="639" src="/images/cad4.png" width="248"/></span></p>
 <h1>Week7</h1>
+<p></p>
+<p></p>
 <h2>利用 SciTE 編輯器類解譯 ANSI C 程式</h2>
 <p>先下載<a href="http://a.kmol.info:88/fall2020_v2.7z">fall2020_v2.7z</a>解壓縮到c:/tmp</p>
 <p>把tcc跟gnuplot放到c:/fall2020_v2/data 裡面</p>
